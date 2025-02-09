@@ -40,13 +40,6 @@ python server.py
 - Check `keylogs.txt` for recorded keystrokes.  
 - View received keystrokes on the **server logs**.  
 
-## **Example Server Response (Flask Version) 🖧**  
-```json
-{
-  "status": "success"
-}
-```
-
 ## **Notes ⚠️**  
 - Ensure your **server IP and port** are correctly set.  
 - Run the script with **admin/root privileges** if needed.  
